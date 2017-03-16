@@ -1,0 +1,256 @@
+<!DOCTYPE html5>
+<style>
+	body{
+		font:"Microsoft Yahei";
+		background-color:#ccc;
+	}
+	.block1{
+		margin:20px;
+		background-color:white;
+		padding:20px;
+	}
+	.paragraph{
+		text-indent:2em;
+		font: 14px;
+		line-height:2em;
+	}
+	p{
+		font: 14px;
+		line-height:2em;		
+	}
+	.author{
+		color:gray;
+	}
+	h3{
+		color:gray;
+	}
+	ul li{
+		list-style-type:none;
+	}
+	li{
+		line-height:1.8em;
+	}
+	.pic{
+		border:1px solid black;
+		padding:0 20px 20px 20px;
+		margin:20px;
+		width:200px;
+		margin-left:40px;
+		text-align:center;
+	}
+	.table1{
+		border-collapse:collapse;
+		width:100%;
+	}
+	.table1 tr td{
+		border:1px solid #ccc;
+		height:30px;
+		width:30%;
+	}
+	.table1 tr{
+		
+	}
+	#tableHead{
+		background-color:black;
+	}
+	#tableHead td{
+		color:white;
+	}
+	#tableFoot{
+		background-color:#ccc;
+	}
+	.sideTitle{
+		font-size:20px;
+		font-weight:600;
+		padding:10px;
+		border-left:5px solid #ccc;
+	}
+	.table2{
+		border-collapse:collapse;
+		margin:10px auto;
+	}
+	.table2 td{
+		border:none;
+
+	}
+	.table2 tr td{
+		text-align:right;
+		padding:10px;
+		vertical-align:top;
+	}
+	.table2 tr .rightCell{
+		text-align:left;
+	}
+	.table2 tr .rightCell p{
+		color:#ccc;
+		font-size:12px;
+	}
+	.table2 tr td textarea{
+		width:700px;
+		height:100px;	
+	}
+	.btn1{
+		border-radius:10px;
+		background-color:blue;
+		text-align:center;
+		color: white;
+		width:100%;
+		height:40px;
+		margin:0 auto;
+	}
+</style>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+</head>
+
+<body>
+	<div class="block1">
+	<h2>文章一级标题</h2>
+	<h3>文章二级标题</h3>
+	<p class="author">文章作者&nbsp;文章发表时间</p>
+	<p class="paragraph">这个是一个很长很长的段落，这个是一个很长很长的段落，这个是一个很长很长的段落，
+	这个是一个很长很长的段落，这个是一个很长很长的段落，这个是一个很长很长的段落，
+	这个是一个很长很长的段落，<span><a href="http://ife.baidu.com/">这里有一个链接，
+	链接到http://ife.baidu.com/</a></span>这个是一个很长很长的段落，这个是一个很长很长的段落。</p>
+	<p>这个是一个很长很长的段落，这个是一个很长很长的段落，这个是一个很长很长的段落，
+	这个是一个很长很长的段落，这个是一个很长很长的段落，这个是一个很长很长的段落，
+	这个是一个很长很长的段落，这个是一个很长很长的段落。</p>
+	<img src="http://www.dabaipm.cn/wp-content/themes/No.7_qzhai/img/default.jpg"/>
+	</div>
+	<div class="block1">
+	<h2>另一篇文章一级标题</h2>
+	<h3>文章二级标题</h3>	
+	<p class="author">文章作者&nbsp;文章发表时间</p>
+	<p class="paragraph">这个是一个很长很长的段落，这个是一个很长很长的段落，这个是一个很长很长的段落，
+	这个是一个很长很长的段落，这个是一个很长很长的段落，这个是一个很长很长的段落，
+	这个是一个很长很长的段落，<span><a href="http://ife.baidu.com/">这里有一个链接，
+	链接到http://ife.baidu.com/</a></span>这个是一个很长很长的段落，
+	这个是一个很长很长的段落，</p>
+	<p>这个是一个很长很长的段落，这个是一个很长很长的段落，这个是一个很长很长的段落，
+	这个是一个很长很长的段落，这个是一个很长很长的段落，这个是一个很长很长的段落，
+	这个是一个很长很长的段落，这个是一个很长很长的段落。</p>
+	<img src="http://www.dabaipm.cn/wp-content/themes/No.7_qzhai/img/default.jpg"/>
+	<ul>
+		<li>列表项目一</li>
+		<li>列表项目二</li>
+		<li>列表项目三</li>
+	</ul>
+	</div>
+	<div class="block1">
+	<h2>图片</h2>
+		<div class="pic">
+		<p>好看的图片</p>
+		<img src="http://www.dabaipm.cn/wp-content/themes/No.7_qzhai/img/default.jpg"/>
+		</div>
+		<div class="pic">
+		<p>好看的图片</p>
+		<img src="http://www.dabaipm.cn/wp-content/themes/No.7_qzhai/img/default.jpg"/>
+		</div>
+		<div class="pic">
+		<p>好看的图片</p>
+		<img src="http://www.dabaipm.cn/wp-content/themes/No.7_qzhai/img/default.jpg"/>
+		</div>
+	</div>
+	<div  class="block1">
+	<h2>最后一篇文章一级标题</h2>
+	<h3>文章二级标题</h3>
+	<p class="author">文章作者&nbsp;文章发表时间</p>
+	<ol>
+		<li>排名1</li>
+		<li>排名2</li>
+		<li>排名3</li>
+	</ol>
+	<p>下面是一个表格，给表格加一个border=“1”好让你看出是一个表格</p>
+	<table class="table1">
+		<tbody>
+			<tr id="tableHead">
+				<td>表头</td>
+				<td>表头</td>
+				<td>表头</td>
+			</tr>
+			<tr>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="">操作</a></td>
+			</tr>
+			<tr>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="">操作</a></td>
+			</tr>
+			<tr id="tableFoot">
+				<td>总计</td>
+				<td colspan=2>1000</td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+	<div  class="block1">
+	<p class="sideTitle">这里以后是一个侧栏，这是侧栏的标题</p>
+
+	<table class="table2">
+		<tr>	
+			<td><label>请输入邮箱地址<span></label>
+			<td class="rightCell">
+			<input type="text" value="这是一个文本输入框"/>
+			<p>邮箱地址请按要求格式输入</p>
+			</td>
+		</tr>
+		<tr>
+			<td><label>请输入密码</label></td>
+			<td class="rightCell"><input type="password" value="这是一个文本输入框"/></td>
+		</tr>
+		<tr>
+			<td><label>请重复输入密码</label></td>
+			<td class="rightCell">
+			<input type="password" value="这是一个文本输入框"/>
+			<p>密码请为6-16位英文数字</p>
+			</td>
+		</tr>
+		<tr>
+			<td><label>性别</label></td>
+			<td class="rightCell">
+			<input type="radio" value="男" name="gender" checked="checked"/>男
+			<input type="radio" value="女" name="gender"/>女
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<label>城市</label>
+			</td>
+			<td class="rightCell">
+			<select>
+				<option>北京</option>
+				<option>上海</option>
+				<option>广州</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<label>爱好</label>
+			</td>
+			<td class="rightCell">
+			<input type="checkbox" value="运动"/>运动
+			<input type="checkbox" value="艺术"/>艺术
+			<input type="checkbox" value="科学"/>科学
+			</td>
+		</tr>
+		<tr>
+			<td style="vertical-align:top">
+			<label>个人描述</label>
+			</td>
+			<td class="rightCell">
+			<textarea>这是一个多行输入框，输入您的个人描述</textarea>
+			</td>
+		</tr>
+	</table>
+	<div>
+	<input class="btn1" type="submit" value="确认提交"/>
+	</div>
+	</div>
+</body>
+</html>
+
+
