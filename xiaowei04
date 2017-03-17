@@ -1,0 +1,44 @@
+<!DOCTYPE html5>
+<style>
+	.grayFrame{
+		background-color:#ccc;
+		width:400px;
+		height:200px;
+		position:absolute;
+		z-index:1;
+		top:50%;
+		left:50%;
+		margin-top:-100px;
+		margin-left:-200px;
+	}
+	.leftRound, .rightRound{
+		background-color:#fc0;
+		width:50px;
+		height:50px;
+		position:absolute;
+		z-index:2;
+	}
+	.leftRound{
+		border-bottom-right-radius:50px;
+		top:0px;
+		left:0px;
+	}
+	.rightRound{
+		border-top-left-radius:50px;
+		bottom:0px;
+		right:0px;
+	}
+</style>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+</head>
+<body>
+<div class="grayFrame">
+  <div class="leftRound"></div>
+  <div class="rightRound"></div>
+</div>
+</body>
+</html>
+
+
